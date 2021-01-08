@@ -1,0 +1,3 @@
+Django
+mysqlclient
+pretty_errors
