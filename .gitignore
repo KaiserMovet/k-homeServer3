@@ -128,3 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 khs/khs/database.cfg
+node_modules/
+migrations/
+database.cfg
+start.sh

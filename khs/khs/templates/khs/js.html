@@ -1,1 +1,30 @@
-JS
+{% load static %}
+
+<!-- JQUERY -->
+<script type="text/javascript" src="{% static 'node_modules/jquery/dist/jquery.js' %}"></script>
+
+<!-- BOOTSTRAP -->
+<script type="text/javascript" src="{% static 'node_modules/bootstrap/dist/js/bootstrap.js' %}"></script>
+
+<link rel="stylesheet" href="{% static 'khs/ccolors.css' %}">
+<link rel="stylesheet" href="{% static 'node_modules/bootstrap/dist/css/bootstrap.css' %}">
+<link rel="stylesheet" href="{% static 'node_modules/bootswatch/dist/darkly/bootstrap.css' %}">
+<link rel="stylesheet" href="{% static 'khs/darkly.css' %}">
+
+<!-- MOMENT -->
+<script type="text/javascript" src="{% static 'node_modules/moment/moment.js' %}"></script>
+<script>
+    moment().format();
+</script>
+
+<!-- CHARTS -->
+<script type="text/javascript" src="{% static 'node_modules/dygraphs/dist/dygraph.js' %}"></script>
+
+<!-- TABLESORTER -->
+<script type="text/javascript" src="{% static 'node_modules/tablesorter/dist/js/jquery.tablesorter.js' %}"></script>
+<script type="text/javascript"
+    src="{% static 'node_modules/tablesorter/dist/js/widgets/widget-math.min.js' %}"></script>
+
+<!-- CUSTOM -->
+<script type="text/javascript" src="{% static 'common/common.js' %}"></script>
+<script type="text/javascript" src="{% static 'khs/khs.js' %}"></script>

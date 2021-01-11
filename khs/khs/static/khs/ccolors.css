@@ -1,0 +1,65 @@
+/* INDYGO */
+.bg-indygo {
+    background-color: #ff99dd !important;
+  }
+  
+  a.bg-indygo:hover, a.bg-indygo:focus,
+  button.bg-indygo:hover,
+  button.bg-indygo:focus {
+    background-color: #ff99dd !important;
+  }
+
+  .table-indygo,
+  .table-indygo > th,
+  .table-indygo > td {
+    background-color: #ff99dd;
+  }
+  
+  .table-indygo th,
+  .table-indygo td,
+  .table-indygo thead th,
+  .table-indygo tbody + tbody {
+    border-color: #ff99dd;
+  }
+  
+  .table-hover .table-indygo:hover {
+    background-color: #ff99dd;
+  }
+  
+  .table-hover .table-indygo:hover > td,
+  .table-hover .table-indygo:hover > th {
+    background-color: #ff99dd;
+  }
+
+/* ORANGE */
+.bg-orange {
+    background-color: #ffbb99 !important;
+  }
+  
+  a.bg-orange:hover, a.bg-orange:focus,
+  button.bg-orange:hover,
+  button.bg-orange:focus {
+    background-color: #ffbb99 !important;
+  }
+
+  .table-orange,
+  .table-orange > th,
+  .table-orange > td {
+    background-color: #ffbb99;
+  }
+  
+  .table-orange th,
+  .table-orange td,
+  .table-orange thead th,
+  .table-orange tbody + tbody {
+    border-color: #ffbb99;
+  }
+  
+  .table-hover .table-orange:hover {
+    background-color: #ffbb99;
+  }
+  
+  .table-hover .table-orange:hover > td,
+  .table-hover .table-orange:hover > th {
+    background-color: #ffbb99;
+  }

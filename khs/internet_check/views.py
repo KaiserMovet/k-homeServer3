@@ -1,7 +1,26 @@
-from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
+from django.template import loader
+from django.core import serializers
+from .models import InternetSpeed, InternetStatus
+# Main
+from pprint import pprint
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    template = loader.get_template('internet_check/base.html')
+    return HttpResponse(template.render())
+
+
+# API
+
+
+def api_internet_speed(_):
+    internet_speed = serializers.serialize(
+        "json", InternetSpeed.objects.order_by('-date'))
+    return HttpResponse(internet_speed)
+
+
+def api_internet_status(_):
+    internet_status = serializers.serialize(
+        "json", InternetStatus.objects.all())
+    return HttpResponse(internet_status)

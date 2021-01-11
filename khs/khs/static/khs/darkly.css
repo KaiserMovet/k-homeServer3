@@ -1,0 +1,105 @@
+/* ORANGE */
+.bg-orange {
+    background-color: #ff7733 !important;
+  }
+  
+  a.bg-orange:hover, a.bg-orange:focus,
+  button.bg-orange:hover,
+  button.bg-orange:focus {
+    background-color: #ff7733 !important;
+  }
+  
+  .table-orange,
+  .table-orange > th,
+  .table-orange > td {
+    background-color: #ff7733;
+  }
+  
+  .table-orange th,
+  .table-orange td,
+  .table-orange thead th,
+  .table-orange tbody + tbody {
+    border-color: #ff7733;
+  }
+  
+  .table-hover .table-orange:hover {
+    background-color: #ff7733;
+  }
+  
+  .table-hover .table-orange:hover > td,
+  .table-hover .table-orange:hover > th {
+    background-color: #ff7733;
+  }
+  
+  /* OTHERS */
+  
+  .navbar {
+      padding: 0.5rem 1rem;
+    }
+  h1, .h1 {
+    font-size: 2.5rem;
+    }
+  h2, .h2 {
+      font-size: 2rem;
+    }
+  
+  .alert-success {
+      background-color: #155724;
+      color: #d4edda;
+      border-color: #c3e6cb;
+  }
+  .alert-danger {
+    background-color: #721c24;
+    color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  .table-success,
+  .table-success > th,
+  .table-success > td {
+    background-color: #155724;
+  }
+  
+  .table-success th,
+  .table-success td,
+  .table-success thead th,
+  .table-success tbody + tbody {
+    border-color: #8fd19e;
+  }
+  
+  .table-hover .table-success:hover {
+    background-color: #155724;
+  }
+  
+  .table-hover .table-success:hover > td,
+  .table-hover .table-success:hover > th {
+    background-color: #155724;
+  }
+  
+  .table-danger,
+  .table-danger > th,
+  .table-danger > td {
+    background-color: #721c24;
+  }
+  
+  .table-danger th,
+  .table-danger td,
+  .table-danger thead th,
+  .table-danger tbody + tbody {
+    border-color: #ed969e;
+  }
+  
+  .table-hover .table-danger:hover {
+    background-color: #721c24;
+  }
+  
+  .table-hover .table-danger:hover > td,
+  .table-hover .table-danger:hover > th {
+    background-color: #721c24;
+  }
+  
+  .bg-success {
+    background-color: #155724 !important;
+  }
+  .bg-danger {
+    background-color: #721c24 !important;
+  }
