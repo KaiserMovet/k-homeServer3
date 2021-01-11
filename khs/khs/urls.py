@@ -21,7 +21,8 @@ app_name = 'khs'
 
 urlpatterns = [
     path('', views.indexx, name='index'),
-    path('internet_check/', include('internet_check.urls', namespace='internet_check'),
+    path('internet_check/',
+         include('internet_check.urls', namespace='internet_check'),
          name='internet_check'),
     path('admin/', admin.site.urls, name='admin'),
 ]

@@ -3,7 +3,6 @@ from django.template import loader
 from django.core import serializers
 from .models import InternetSpeed, InternetStatus
 # Main
-from pprint import pprint
 
 
 def index(request):
