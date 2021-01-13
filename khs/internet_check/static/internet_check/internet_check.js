@@ -570,7 +570,7 @@ var icStaticMsg = {
         status_msg = document.getElementById("current_status");
         duration_msg = document.getElementById("duration_msg");
 
-        document.getElementById("last_time").innerHTML = icMain.dateToFullStr(mergedRangeCollection.last().end);
+        document.getElementById("last_time").innerHTML = icMain.dateToFullStr(mergedRangeCollection[mergedRangeCollection.length - 1].end);
         document.getElementById("last_time").setAttribute("updated", true);
         status = mergedRangeCollection[0].status
         icStaticMsg.setEmoji(status);
@@ -587,7 +587,7 @@ var icStaticMsg = {
             last_speed.classList.add("invisible");
             status_msg.innerHTML = "No connection"
         }
-        duration_msg.innerHTML = this.generateDurationMsg(mergedRangeCollection.last());
+        duration_msg.innerHTML = this.generateDurationMsg(mergedRangeCollection[mergedRangeCollection.length - 1]);
         console.log(internet_speed);
         this.setSpeed(internet_speed["download"][0], internet_speed["upload"][0]);
     },
