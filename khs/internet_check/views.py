@@ -21,5 +21,5 @@ def api_internet_speed(_):
 
 def api_internet_status(_):
     internet_status = serializers.serialize(
-        "json", InternetStatus.objects.all())
+        "json", InternetStatus.objects.all('-date'))
     return HttpResponse(internet_status)
